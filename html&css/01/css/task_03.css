@@ -7,12 +7,14 @@
 
 body {
   background-image: url('https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1,
 div {
   background-color: rgba(247, 240, 237, 0.9);
-  background-size: contain;
+
   width: 60%;
   margin-left: 5%;
   padding: 15px 10px;
