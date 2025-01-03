@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4e6f50;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  background-color: #d3e3c9;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.box h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.box p {
+  font-weight: 300;
+}
+
+.box p:first-of-type {
+  margin-top: 20px;
+}
+
+.box:hover {
+  scale: 1.1;
+  transition: 2s;
+  cursor: pointer;
+}
