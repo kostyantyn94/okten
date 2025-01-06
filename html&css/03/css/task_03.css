@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: sans-serif;
+}
+
+section h2,
+section p {
+  text-align: center;
+}
+
+section p {
+  font-weight: 200;
+}
+
+.turquoise {
+  background-color: #40e0d0;
+}
+
+.chartreuse {
+  background-color: #7fff00;
+}
+
+.arrow:link {
+  font-size: 80px;
+  text-decoration: none;
+  color: inherit;
+}
+.arrow:visited {
+  color: inherit;
+}
+
+.arrow:hover {
+  scale: 1.1;
+}
+
+.arrow:active {
+}
