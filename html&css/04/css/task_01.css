@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 22vh;
+  background-color: #d9d9d9;
+}
+
+main {
+  height: calc(100vh - 2 * 22vh);
+  background-color: #a4a4a4;
+}

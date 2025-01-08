@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 5vh;
+  background-color: #d9d9d9;
+}
+
+main {
+  height: 74vh;
+  display: flex;
+}
+
+main article {
+  width: 60%;
+  background-color: #a4a4a4;
+}
+
+main aside {
+  width: 40%;
+}
+
+main aside section.s-1 {
+  height: 54%;
+  background-color: #7f7a7a;
+}
+
+main aside section.s-2 {
+  height: 46%;
+  background-color: #615050;
+}
+
+section.s-3 {
+  height: 10vh;
+  background-color: #d9d9d9;
+}
+
+footer {
+  height: 11vh;
+  background-color: #afa9a9;
+}
