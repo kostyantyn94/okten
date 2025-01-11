@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: 'Bowlby One', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+
+nav {
+  padding-top: 36px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  line-height: 17.44px;
+  color: #e9e3dc;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 59px;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+li.active {
+  padding: 22px 26px;
+  color: #1e1e1e;
+  background-color: #b3a0cd;
+}
+
+header h1 {
+  margin: 0 auto;
+  margin-top: 74px;
+  color: #e9e3dc;
+  font-size: 107.09px;
+  text-align: center;
+  line-height: 95.2px;
+}
+
+.burger-img {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 33px;
+}
+
+section.about {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 100px 150px 85px 110px;
+  background-color: #d1ef53;
+  color: #1e1e1e;
+  border-radius: 30px;
+}
+
+section.about .title {
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 62.23px;
+  letter-spacing: -0.02em;
+  flex-basis: 50%;
+}
+
+section.about .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 50%;
+}
+
+section.about .content p {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.58px;
+  letter-spacing: -0.02em;
+}
+
+section.about .content button {
+  font-family: inherit;
+  padding: 21px 35px;
+  font-size: 18px;
+  line-height: 17.44px;
+  border: 4px solid #1e1e1e;
+  box-shadow: 8px 8px 0 #000;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+section.menu {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.people {
+  margin-top: 64px;
+}
+
+footer {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+  padding-bottom: 36px;
+}
+
+footer p {
+  font-size: 70px;
+  line-height: 71.33px;
+  text-align: center;
+  color: #e9e3dc;
+  text-transform: uppercase;
+  width: 895px;
+}
+
+footer button {
+  font-family: inherit;
+  color: #1e1e1e;
+  font-size: 18px;
+  line-height: 17.44px;
+  text-align: center;
+  padding: 21px 35px;
+  background-color: #d1ef53;
+  text-transform: uppercase;
+  cursor: pointer;
+}

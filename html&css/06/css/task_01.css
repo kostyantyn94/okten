@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* first block */
+
+.block1 ul > li:nth-child(even) {
+  color: pink;
+}
+
+/* second block */
+
+.block2 ul > li:nth-child(even) {
+  font-size: 22px;
+}
+
+/* third block */
+
+.block3 ul > li:nth-child(2n + 4)::after {
+  content: '!';
+}
+
+/* fourth block */
+
+.block4 ul > li:last-child {
+  color: darkviolet;
+}
+
+/* fifth block */
+
+.block5 ul > li:first-letter {
+  color: red;
+  font-size: 30px;
+}
