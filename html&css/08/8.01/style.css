@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 32px;
+  row-gap: 64px;
+}
+
+.block {
+  width: 372px;
+  height: 354px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text p {
+  font-size: 13px;
+  line-height: 15.6px;
+  letter-spacing: 1.5px;
+  margin-top: 15px;
+  color: #3c3c43;
+}
+
+img {
+  width: 100%;
+}

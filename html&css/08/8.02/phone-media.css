@@ -1,0 +1,23 @@
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    column-gap: 0;
+    row-gap: 32px;
+  }
+
+  .block {
+    width: 343px;
+    height: 220px;
+  }
+  .image {
+    width: 128px;
+    height: 128px;
+  }
+  h2 {
+    margin-top: 16px;
+  }
+  p {
+    margin-top: 8px;
+  }
+}

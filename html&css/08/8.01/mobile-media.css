@@ -1,0 +1,10 @@
+@media screen and (max-width: 375px) {
+  .container {
+    padding: 32px 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .block {
+    width: 218px;
+    height: 239px;
+  }
+
+  .image {
+    width: 218px;
+    height: 164px;
+  }
+}

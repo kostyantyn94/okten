@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  height: 408px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 32px;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.block {
+  width: 271px;
+  height: 280px;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #7687a1;
+}

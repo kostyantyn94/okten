@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 40px;
+    padding: 48px 24px;
+  }
+}
